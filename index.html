@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Duinvelt Installatietechniek - fictief bedrijf, demo van New Story</title>
+<meta name="description" content="Duinvelt Installatietechniek is een fictief installatiebedrijf in de Duin- en Bollenstreek: een demo van New Story.">
+<meta name="theme-color" content="#1f4a3b">
+<link rel="icon" href="/beeldmerk.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family: "Geist"; src: url("/fonts/geist-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+:root { --achtergrond: #faf8f3; --tekst: #1b2a24; --kop: #1f4a3b; --groen: #2f6b55; --zand: #e8c766; --zand-zacht: #f7ecc9; --rand: #e6e1d6; --stil: #6b675d; --vlak: #f1ede3; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--achtergrond); color: var(--tekst); font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 17px; line-height: 1.55; }
+a { color: var(--groen); text-underline-offset: 3px; }
+.melding { background: var(--kop); color: #fff; font-size: 14px; text-align: center; padding: 9px 16px; }
+.melding a { color: var(--zand); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+header .wrap { display: flex; align-items: center; padding-top: 22px; padding-bottom: 10px; }
+.logo { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
+.logo svg { width: 36px; height: 36px; flex: none; }
+.logo span { font-size: 23px; font-weight: 600; letter-spacing: -0.02em; color: var(--groen); }
+.hero { padding-top: 44px; }
+h1 { font-size: clamp(36px, 7vw, 64px); line-height: 1.04; letter-spacing: -0.035em; color: var(--kop); margin: 0 0 20px; font-weight: 700; max-width: 12ch; }
+.intro { font-size: clamp(18px, 2.3vw, 21px); max-width: 36ch; margin: 0 0 10px; }
+.belofte { color: var(--stil); margin: 0; }
+.duin { display: block; width: 100%; height: 120px; margin-top: 40px; }
+section { padding: 36px 0; }
+h2 { font-size: 26px; line-height: 1.2; letter-spacing: -0.02em; color: var(--kop); margin: 0 0 18px; }
+.diensten { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+.kaart { background: #fff; border: 1px solid var(--rand); border-radius: 12px; padding: 20px; }
+.kaart h3 { margin: 0 0 6px; font-size: 19px; letter-spacing: -0.01em; color: var(--kop); }
+.kaart p { margin: 0; color: var(--stil); font-size: 16px; }
+.streek { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0; list-style: none; }
+.streek li { background: var(--vlak); border-radius: 999px; padding: 6px 14px; font-size: 15px; }
+.fictief { background: var(--zand-zacht); border: 1px solid #ecd9a0; border-radius: 12px; padding: 24px; }
+.fictief h2 { margin-bottom: 10px; }
+.fictief p { margin: 0 0 10px; max-width: 62ch; }
+.fictief p:last-child { margin-bottom: 0; }
+footer { border-top: 1px solid var(--rand); margin-top: 28px; padding: 22px 0 40px; color: var(--stil); font-size: 14px; }
+footer .wrap { display: flex; flex-wrap: wrap; gap: 6px 24px; justify-content: space-between; }
+</style>
+</head>
+<body>
+<div class="melding">Duinvelt is een fictief bedrijf, een demo van <a href="https://newstory.nl">New Story</a>.</div>
+<header>
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Duinvelt, naar de startpagina">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#2f6b55"/><path d="M5 21.5c4.5-6.5 8.5-6.5 12.5-2.8s6 3.7 9.5-1.4" fill="none" stroke="#e8c766" stroke-width="3" stroke-linecap="round"/><path d="M8 25.5h16" stroke="#e8c766" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/></svg>
+      <span>duinvelt</span>
+    </a>
+  </div>
+</header>
+<main>
+  <div class="wrap hero">
+    <h1>Duurzaam wonen, geregeld.</h1>
+    <p class="intro">Warmtepompen, zonnepanelen en thuisbatterijen in de Duin- en Bollenstreek, met service en onderhoud.</p>
+    <p class="belofte">Wij regelen het, van subsidie tot service.</p>
+  </div>
+  <svg class="duin" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 78 C 170 18, 320 18, 470 66 S 770 116, 910 62 S 1110 22, 1200 46 L1200 120 L0 120 Z" fill="#f1ede3"/>
+    <path d="M0 100 C 220 64, 400 72, 590 96 S 930 112, 1200 82 L1200 120 L0 120 Z" fill="#e8c766" fill-opacity=".5"/>
+    <path d="M0 78 C 170 18, 320 18, 470 66 S 770 116, 910 62 S 1110 22, 1200 46" fill="none" stroke="#2f6b55" stroke-width="3" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+  </svg>
+  <section>
+    <div class="wrap">
+      <h2>Wat we doen</h2>
+      <div class="diensten">
+        <div class="kaart"><h3>Warmtepompen</h3><p>Hybride of volledig elektrisch, met advies over isolatie en subsidie.</p></div>
+        <div class="kaart"><h3>Zonnepanelen</h3><p>Panelen op maat van je dak en je verbruik.</p></div>
+        <div class="kaart"><h3>Thuisbatterijen</h3><p>Meer van je eigen stroom zelf gebruiken.</p></div>
+        <div class="kaart"><h3>Onderhoud en storingen</h3><p>Jaarlijks onderhoud, en een monteur als het misgaat.</p></div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <h2>Werkgebied</h2>
+      <ul class="streek">
+        <li>Katwijk</li><li>Rijnsburg</li><li>Noordwijk</li><li>Noordwijkerhout</li><li>Leiden</li><li>Oegstgeest</li><li>Sassenheim</li><li>Voorhout</li><li>Lisse</li><li>Hillegom</li><li>Wassenaar</li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <div class="fictief">
+        <h2>Dit bedrijf bestaat niet</h2>
+        <p>New Story heeft Duinvelt Installatietechniek verzonnen als proefomgeving voor AI. Medewerkers, klanten en projecten zijn fictief. Je kunt hier niets bestellen en niemand neemt contact met je op.</p>
+        <p>Vragen over deze demo? Kijk op <a href="https://newstory.nl">newstory.nl</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Duinvelt Installatietechniek, een demo van New Story</span>
+    <span>KvK en btw: fictief bedrijf</span>
+  </div>
+</footer>
+</body>
+</html>
